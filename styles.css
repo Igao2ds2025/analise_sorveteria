@@ -32,3 +32,13 @@ body{
     position: relative;
     overflow: hidden;
 }
+
+.cabecalho::after{
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background: url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 10"xmlns="http://www.w3.org/2000/svg"><path fill="white"d="M0 10 Q 25 5 50 10 T 100 10 L 100 0 L 0 0 Z"/></svg>');
+}
